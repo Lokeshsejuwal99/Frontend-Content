@@ -165,8 +165,8 @@ body{
   }
 
   .about-section{
-   width: 34%;
-   flex-direction: column; 
+    width: 34%;
+    flex-direction: column; 
 
   }
 }
