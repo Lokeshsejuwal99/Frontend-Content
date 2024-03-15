@@ -1,16 +1,36 @@
+.heading{
+  text-align: center; 
+  margin-top: 20px; 
+  font-weight: bolder; 
+  margin-bottom: -30px;
+  font-size: 50px;
+  letter-spacing: 4px;
+}
+
+.setup{
+  background-color: transparent;
+  margin: 60px;
+  border-radius: 20px;
+  box-shadow: #c9c6c680 3px 3px 3px 3px inset, #c9c6c680 -2px -2px 3px 2px inset; 
+}
+
 .navigation-bar{
- background-color: #073461e8;
+ background-color: #c3c4c694;
  height: 50px;
- justify-content: center;
+ justify-content: right;
  display: flex;
+ font-weight: 600;
+}
+.navigation-bar :hover{
+  color: rgb(38, 255, 78);
 }
 
 .nav-link{
- color: #fff;
+  color: white;
 }
  
 .hero{
- background-color:#082826;
+ background-color:transparent;
  min-height: 80vh;
  color: #fff;
 }
@@ -18,7 +38,8 @@
 #profile_pic{
  height: 200px;
  width: 200px;
- object-fit: cover;2
+ border-radius: 5%;
+ object-fit: cover;
 }
 
 .hero-content{
@@ -36,25 +57,22 @@
 }
 
 .intro-name{
- font-size: 72px;
- color: #fff;
+ font-size: 62px;
+ color: #0e9e03;
  margin-top: .1em;
  font-weight: 740;
- margin-left: .1em;
+ margin-left: 2em;
  letter-spacing: .11em;  
 }
 
-#profile_pic{
- border-radius: 50%;
- height: 200px;
- width: 200px;
- object-fit: cover;
+.role h1{
+  font-weight: bold;
 }
-
-.role{
- color: rgb(6, 217, 6);
- text-align: center;
- padding-bottom: 1em;
+.slogan{
+  margin-right: -130px;
+  text-align: right;
+  font-size: 22px;
+  color: rgb(0, 0, 0);
 }
 .container{
  width: 970px;
@@ -132,6 +150,35 @@ body{
  padding: 2px;
  text-align: center;
 }
+.color-picker {
+  display: flex;
+  margin-left: 20px;
+ }
+ 
+ .color-option {
+  width: 20px;
+  height: 20px;
+  margin: 8px;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 1px solid black;
+ }
+ .colorchanger{
+  margin-right: 667px;
+  margin-left: 150px;
+  margin-top: -80px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: rgba(204, 219, 232, 0.327) 3px 3px 3px 3px inset, rgba(255, 255, 255, 0.5) -2px -2px 3px 2px inset; 
+}
+
+ .colorchanger h4{
+  text-align: left;
+  color: rgb(0, 0, 0);
+  margin-left: 22px;
+  font-size: large;rge;
+  font-family: sans-serif;
+}
 
 
 @media(max-width:800px){
@@ -144,23 +191,24 @@ body{
   flex-direction: column; 
   align-items: flex-start;
 }
-
 }
 
-@media(max-width:900px){
+@media(max-width:500px){
   .skill-container{
     width: 100%;
   }
 }
 
-@media(max-width:600px){
+@media(max-width:500px){
   .hero-content{
+    flex-direction: column;
     width: 100%;
   }
 }
 
 @media(max-width:400px){
   .other-skills{
+    flex-direction: column;
     width: 100%;
   }
 
