@@ -1,1 +1,1 @@
-i think redme is needed.
+This is my personal portfolio. 
