@@ -194,60 +194,60 @@ body{
   font-family: sans-serif;
 }
 
-header {
-  background-color: #333;
-  color: #fff;
-  padding: 2px;
-  text-align: center;
-}
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 2px;
+    text-align: center;
+  }
 
-main {
-  padding: 2px;
-}
+  main {
+    padding: 2px;
+  }
 
-.contact-form {
-  max-width: 500px;
-  margin: 0 auto;
-}
+  .contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
 
-.contact-form label {
-  display: block;
-  margin-bottom: 10px;
-}
+  .contact-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
 
-.contact-form input[type="text"],
-.contact-form input[type="email"],
-.contact-form textarea {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  box-sizing: border-box;
-}
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
 
-.contact-form textarea {
-  resize: vertical;
-}
+  .contact-form textarea {
+    resize: vertical;
+  }
 
-.contact-form button {
-  background-color: #333;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-  border-radius: 5px;
-}
+  .contact-form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
 
-footer {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 10px;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
 
 
 @media(max-width:800px){
